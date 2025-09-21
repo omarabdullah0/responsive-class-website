@@ -126,3 +126,10 @@ nav ul li a:hover{
         clip-path: circle(50% at bottom);
     }
 }
+@media (max-width:380px){
+        nav{
+        flex-direction: column;
+        justify-content: center;
+        width: 100%;
+    }
+}
